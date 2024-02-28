@@ -1,15 +1,12 @@
 .mainfooter {
-    /* background-color: var(--bgc); */
-    background-image: url('/public/images/footer-bg.jpg');
+    background-color: antiquewhite;
+    /* background-image: url('/public/images/footer-bg.jpg'); */
     position: relative;
-    color:white;
-    
+    color:#000;   
 }
-
 .link-foot{
-    color: #fff;
+    color: #000;
 }
-
 .head-link-footer{
     text-decoration: none;
     color: var(--sec);
@@ -19,11 +16,11 @@
 }
 
 .smallbox-1 li{
-    color:#fff;
+    color:#000;
 }
 .one {
     margin-left: 30px;
-    color:#fff;
+    color:#000;
     font-size:20px;
     font-weight: 600;
 
@@ -36,19 +33,19 @@
     margin-bottom: 5px !important;
 }
 .hrline{
-    color:#fff;
+    color:#000;
 }
 .two {
     margin-left: 30px;
-    color:#fff;
+    color:#000;
     font-size:20px;
     font-weight: 600;
 }
 .two Link{
-    color:#fff;
+    color:#000;
 }
 .quicklinks a{
-    color:#fff;
+    color:#000;
 }
 .quicklinks a:hover{
     color:var(--sec);
@@ -59,26 +56,26 @@
 }
 .three {
     margin-left: 30px;
-    color:#fff;
+    color:#000;
     font-size:20px;
     font-weight: 600;
 }
 
 .four {
     margin-left: 30px;
-    color:#fff;
+    color:#000;
     font-size:20px;
     font-weight: 600;
 }
 
 .address {
     margin-left: 30px;
-    color:#fff;
+    color:#000;
     font-size: 17px;
     font-weight: 300;
 }
 .address p{
-    color:#fff;
+    color:#000;
 }
 .address a:hover{
     color: var(--sec) !important;
@@ -88,7 +85,7 @@
     background-color: var(--pri);
     border: none;
     border-radius: 7px;
-    color: white;
+    color: #000;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -99,7 +96,7 @@
     background-color: var(--pri);
     border: none;
     border-radius: 7px;
-    color: white;
+    color: #000;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;

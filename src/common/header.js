@@ -1,8 +1,6 @@
 import {
     FaRegClock,
-    FaLocationDot,
     FaCartPlus,
-    FaPhone,
   } from "react-icons/fa6";
   import { IoMdArrowDropdown } from "react-icons/io";
   import {
@@ -18,9 +16,9 @@ import {
   import "../css/header.css";
   import { HiMenuAlt1 } from "react-icons/hi";
   import { Link } from "react-router-dom";
-  import Fixedline from "../services/Fixedline";
   import { MdOutlinePhone } from "react-icons/md";
-  
+  import "font-awesome/css/font-awesome.css";
+
   import { Tooltip as ReactTooltip } from "react-tooltip";
   
   function header() {
@@ -162,8 +160,8 @@ import {
                   <img
                     className="img-fluid1"
                     src="/images/icons/infy-logo.svg"
-                    alt="best web services"
-                    title="Infygain Logo"
+                    alt="Company Logo"
+                    title="Company Logo"
                   ></img>
                 </Link>
               </div>
@@ -333,7 +331,6 @@ import {
               Contact
             </Link>
           </li>
-          <Fixedline />
         </div>
       </>
     );

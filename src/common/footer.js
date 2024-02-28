@@ -6,144 +6,7 @@ import { TbArrowBigUpFilled } from "react-icons/tb";
 import { RiWhatsappFill } from "react-icons/ri";
 
 import { Tooltip as ReactTooltip } from "react-tooltip";
-const sentencesWithLinks = [
-  {
-    sentence: "best computer service in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "best laptop service center in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "best laptop sales and service center in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  { sentence: "best doorstep services", link: "/Iotservice" },
-  {
-    sentence: "printer service center in coimbatore",
-    link: "/services/Printer&Scanner",
-  },
-  {
-    sentence: "computer service in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "best networking company in coimbatore",
-    link: "/services/networking",
-  },
-  { sentence: "best laptop services coimbatore", link: "/services/networking" },
-  {
-    sentence: "website development company in coimbatore",
-    link: "/webservices/Websites",
-  },
-  { sentence: "best IT support company in coimbatore", link: "/Iotservice" },
-  { sentence: "Internet provider in coimbatore", link: "/ispservice" },
-  {
-    sentence: "best internet service provider in coimbatore",
-    link: "/ispservice",
-  },
-  {
-    sentence: "broadband internet connections in coimbatore",
-    link: "/ispservice",
-  },
-  { sentence: "best internet in coimbatore", link: "/ispservice" },
-  {
-    sentence: "website design company in coimbatore",
-    link: "/webservices/Designing",
-  },
-  {
-    sentence: "Popular Laptop Service Center Coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "Best Networking Services in Coimbatore",
-    link: "/services/networking",
-  },
-  { sentence: "best amc service in coimbatore", link: "/Iotservice" },
-  { sentence: "best website seo companies", link: "/ServiceSeo" },
-  { sentence: "Popular Laptop Service Center Coimbatore", link: "/ServiceSeo" },
-  {
-    sentence: "best overall small office printer",
-    link: "/services/Printer&Scanner",
-  },
-  { sentence: "printer shop in coimbatore", link: "/services/Printer&Scanner" },
-  {
-    sentence: "printer catridge refill in coimbatore",
-    link: "/services/Printer&Scanner",
-  },
-  {
-    sentence: "Barcode Scanner in Coimbatore",
-    link: "/services/Printer&Scanner",
-  },
-  {
-    sentence: "Best Barcode Printer Supplier in Coimbatorer",
-    link: "/services/Printer&Scanner",
-  },
-  {
-    sentence: "HP laptop service center in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "Acer laptop service center in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "computer shop in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  {
-    sentence: "computer store in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  { sentence: "laptop shop in coimbatore", link: "/services/laptopanddesktop" },
-  {
-    sentence: "laptop service center in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  { sentence: "best AV solutions in coimbatore", link: "/services/Projectors" },
-  {
-    sentence: "best networking services in coimbatore",
-    link: "/services/networking",
-  },
-  {
-    sentence: "Popular Desktop Services in Coimbatore",
-    link: "/services/networking",
-  },
-  {
-    sentence: "Laptop Battery price in coimbatore",
-    link: "/services/laptopanddesktop",
-  },
-  { sentence: "cctv camera for home", link: "/services/cctv" },
-  { sentence: "cctv camera for office", link: "/services/cctv" },
-  { sentence: "best cctv camera dealers", link: "/services/cctv" },
-  { sentence: "Av solutions in coimbatore", link: "/services/Projectors" },
-  {
-    sentence: "best projectors for college and office",
-    link: "/services/Projectors",
-  },
-  { sentence: "cctv camera for shops", link: "/services/cctv" },
-  {
-    sentence: "cctv camera for education institutions",
-    link: "/services/cctv",
-  },
-  { sentence: "cctv camera for hotels,shops", link: "/services/cctv" },
-  { sentence: "web designing Coimbatore", link: "/webservices/Websites" },
-  {
-    sentence: "web design company in coimbatore",
-    link: "/webservices/Websites",
-  },
-  { sentence: "best cctv provider Coimbatore", link: "/services/cctv" },
-  { sentence: "UI/UX designers Coimbatore", link: "/services/cctv" },
-  {
-    sentence: "website designing in Coimbatore",
-    link: "/webservices/Websites",
-  },
-  { sentence: "web designers in Coimbatore", link: "/webservices/Websites" },
-  { sentence: "best seo service company", link: "/ServiceSeo" },
 
-  // ... add more sentences and links as needed
-];
 
 // Replace 'your-link-here' with the actual link you want to use
 const link = "your-link-here";
@@ -182,8 +45,8 @@ function Footer() {
                   <img
                     className="img-fluid"
                     src="/images/others/logo-alt.svg"
-                    alt="best it supports"
-                    title="Infygain Logo"
+                    alt="Company Logo"
+                    title="Company Logo"
                   ></img>
                 </p>
               </div>
@@ -374,7 +237,7 @@ function Footer() {
                       )
                     }
                     className="hover-address"
-                    style={{ color: "white" }}
+                    style={{ color: "black" }}
                   >
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035.
@@ -417,22 +280,6 @@ function Footer() {
                 </ul>
               </div>
 
-              <div className="seo-keywords">
-                <p className="Keywordstopsearch">TOP SEARCH KEYWORDS</p>
-
-                <p className="text-light-color">
-                  {sentencesWithLinks.map((item, index) => (
-                    <React.Fragment key={index}>
-                      <a href={item.link} style={linkStyle}>
-                        {item.sentence}
-                      </a>
-                      {index < sentencesWithLinks.length - 1 && (
-                        <>&nbsp;|&nbsp;</>
-                      )}
-                    </React.Fragment>
-                  ))}
-                </p>
-              </div>
             </div>
           </div>
 
